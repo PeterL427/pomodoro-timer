@@ -27,9 +27,9 @@ function saveSettings(s: MusicSettings) {
 }
 
 const MUSIC_FILES: Record<MusicMode, string> = {
-  work: '/music/work.mp3',
-  break: '/music/break.mp3',
-  longBreak: '/music/longbreak.mp3',
+  work: './music/work.mp3',
+  break: './music/break.mp3',
+  longBreak: './music/longbreak.mp3',
 };
 
 export function useBackgroundMusic() {
